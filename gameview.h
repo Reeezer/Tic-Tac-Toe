@@ -1,7 +1,9 @@
 #ifndef GAMEVIEW_H
 #define GAMEVIEW_H
 
-#include <QtWidgets>
+class QPushButton;
+class QLabel;
+#include <QWidget>
 
 class GameView : public QWidget
 {

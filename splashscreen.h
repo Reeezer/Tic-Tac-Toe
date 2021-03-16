@@ -1,7 +1,7 @@
 #ifndef SPLASHSCREEN_H
 #define SPLASHSCREEN_H
 
-#include <QtWidgets>
+#include <QWidget>
 
 class SplashScreen : public QWidget
 {

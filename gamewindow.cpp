@@ -1,5 +1,9 @@
 #include "gamewindow.h"
 
+#include <QFontDatabase>
+#include <QIcon>
+#include <QElapsedTimer>
+
 GameWindow::GameWindow(QWidget *parent)
     : QStackedWidget(parent)
 {

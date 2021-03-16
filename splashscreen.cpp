@@ -1,5 +1,10 @@
 #include "splashscreen.h"
 
+#include <QPushButton>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QLabel>
+
 SplashScreen::SplashScreen(QWidget *parent)
     : QWidget(parent)
 {

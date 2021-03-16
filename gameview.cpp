@@ -1,5 +1,10 @@
 #include "gameview.h"
 
+#include <QLabel>
+#include <QGridLayout>
+#include <QPushButton>
+#include <QTimer>
+
 GameView::GameView(QWidget *parent)
     : QWidget(parent)
 {

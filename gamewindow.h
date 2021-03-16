@@ -1,9 +1,12 @@
 #ifndef GAMEWINDOW_H
 #define GAMEWINDOW_H
 
-#include <QtWidgets>
 #include "gameview.h"
 #include "splashscreen.h"
+
+#include <QStackedWidget>
+class QElapsedTimer;
+class QTimerEvent;
 
 class GameWindow : public QStackedWidget
 {
